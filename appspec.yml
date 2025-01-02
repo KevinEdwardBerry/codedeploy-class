@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: bin/Release/net8.0/publish
+    destination: /opt/codedeploy-class
