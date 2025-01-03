@@ -1,0 +1,14 @@
+version: 0.2
+
+run-as: root
+
+env:
+  shell: bash
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+  build:
+    commands:
+      - dotnet publish -c Release codedeploy-class.csproj
