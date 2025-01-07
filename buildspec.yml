@@ -11,4 +11,9 @@ phases:
       dotnet: 8.0
   build:
     commands:
+      - echo "************"
+      - echo "************"
+      - echo $PipelineBuildEnv
+      - echo "************"
+      - echo "************"
       - dotnet publish -c Release codedeploy-class.csproj
