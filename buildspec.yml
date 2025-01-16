@@ -14,5 +14,4 @@ phases:
       - dotnet publish -c Release codedeploy-class.csproj
 artifacts:
   files:
-    - "bin/Release/net8.0/codedeploy-class.dll"
-    - "bin/Release/net8.0/publish/**"
+    - '**/*'
